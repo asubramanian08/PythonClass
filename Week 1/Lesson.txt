@@ -1,0 +1,21 @@
+BEFORE: have the links open
+Introduction
+    Introduce myself: name ...
+    Names, Ages, Interests
+    Purpose of class: programmatic thinking in python
+    What a day will look like: Prev HW, Learn concept, simple examples, some harder problems, HW
+Go though their connect 4
+    Understand where they are
+    Some pointers on how to improve
+Meet the loop
+    How important it is: couldn't get a variable amount of process
+    Talk about the syntax quickly
+        https://www.w3schools.com/python/python_for_loops.asp
+        https://www.w3schools.com/python/python_while_loops.asp
+    Some simple examples (in code)
+        print (string, array, dictionary)
+        sum an array
+        reverse an array
+Home work
+    min, max, avg
+    printing a pyramid with x rows (must be centered)
