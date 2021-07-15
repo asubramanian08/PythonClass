@@ -1,0 +1,9 @@
+Look over older homework (quickly)
+Simple examples
+Quick look at functions: https://www.w3schools.com/python/python_functions.asp
+More focused on them writing code: (Alternate)
+    FizzBuzz: Print numbers from 1-100 but Fizz is %3, and Buzz is %5
+    Make an exponent function
+Homework:
+    Number of even numbers - user entered, stop at 0
+    Add numbers from x down - make a function
