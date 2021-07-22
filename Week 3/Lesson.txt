@@ -1,7 +1,7 @@
 Look over older homework (quickly)
 Simple examples
 Quick look at functions: https://www.w3schools.com/python/python_functions.asp
-More focused on them writing code: (Alternate)
+Them writing code: Rebecca First
     FizzBuzz: Print numbers from 1-100 but Fizz is %3, and Buzz is %5
     Make an exponent function
 Homework:

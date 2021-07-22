@@ -1,0 +1,8 @@
+Look over old homework (quickly)
+Writing code day 2: Writing independently
+    Replace vowels in a string with # - Marissa
+    Factors of a number - Rebecca
+Homework:
+    Check if a number is prime - Rebecca
+    Finish vowel replacing - Marissa
+    print every other character in a string - Both
