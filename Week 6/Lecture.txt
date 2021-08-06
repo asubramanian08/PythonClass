@@ -1,0 +1,5 @@
+Review HW in the class - explain swapping
+HW:
+    Find the GCD of two numbers
+    Calculate the nth fibonacci number
+    Challenge: Find the square root of a number
