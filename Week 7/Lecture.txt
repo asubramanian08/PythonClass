@@ -1,0 +1,9 @@
+Review Prev HW - hard, do fibonacci last
+Intro to recursion:
+    Explain concept: easier to write, harder to follow, subtask
+    Hello x number of times - subtask
+    Add a list of numbers together
+HW:
+    Compute factorial
+    Add down
+    Exponents a^b
