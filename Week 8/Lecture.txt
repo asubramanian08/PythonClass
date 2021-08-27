@@ -1,0 +1,4 @@
+Review prev HW
+Homework:
+    Exponents - using a^x = a^(x/2) * a^(x/2)
+    Selection Sort
