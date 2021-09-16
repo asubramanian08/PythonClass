@@ -1,0 +1,3 @@
+Review past homework
+Homework:
+    Previous homework (didn't do): can either to question 2 or a union of the sorted arrays
