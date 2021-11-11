@@ -1,0 +1,4 @@
+Review over the mergesort homework
+Recursive concept - show breaking down tree
+Homework: (recursion problems)
+    Recursively count leaves in a subtree
