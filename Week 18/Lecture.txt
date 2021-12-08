@@ -1,0 +1,6 @@
+Review my code for the solution to the problem
+Plan out the future - learn more about data (2D array, indexing, looping)
+    Construct better understanding of converting ideas and steps to code
+Homework:
+    Given an array determine if it is a "palindrome"
+    remove duplicate elements - insertion sort first
