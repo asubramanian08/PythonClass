@@ -1,0 +1,4 @@
+Review old homework
+Homework:
+    Given some number (x) and an array return an array all the the numbers less than x
+    Given the amount of rows print an upward and downward facing pyramid
