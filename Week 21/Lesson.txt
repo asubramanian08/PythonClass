@@ -1,0 +1,4 @@
+Go over the past homework
+Homework:
+    Finish the right-side up pyramid by removing to intermediate function (printing the ith line)
+    Print to up-side down pyramid, us to old code
