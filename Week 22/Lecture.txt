@@ -1,0 +1,5 @@
+Review the old homework
+Talk about how to think about nested loops
+Homework:
+    Print the times tables till a number (include 0)
+    Given a list, print the sum of the even and odd numbers
