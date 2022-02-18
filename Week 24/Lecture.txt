@@ -1,0 +1,4 @@
+Had Rebecca explain to Marissa how to solve the previous homework questions (add all odds and evens)
+Homework:
+    Ask the user to count from 1 to some number. They have to input the numbers in order, if they do
+        say good job, otherwise say what the number that should have been printed is
