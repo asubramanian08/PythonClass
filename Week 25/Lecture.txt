@@ -1,0 +1,5 @@
+Review to old problems
+Homework:
+    Givin a user input print you have x dollars
+    keep getting input until there are 20 or more
+    If you have less money than you had before: bad money management and quit

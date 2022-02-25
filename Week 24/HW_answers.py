@@ -3,7 +3,7 @@ enteredCorrectly = True
 print("Enter all number from 1 till", COUNT_TILL, "in order")
 for i in range(COUNT_TILL):
     if int(input()) != i + 1:
-        print("Wrong input, you should have entered", i)
+        print("Wrong input, you should have entered", i + 1)
         enteredCorrectly = False
         break
 if enteredCorrectly:
