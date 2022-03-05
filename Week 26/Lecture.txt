@@ -1,0 +1,4 @@
+Review last week's homework
+Homework:
+    List of numbers: contains (liner, binary search in class)
+                     addBack (if it is not the largest in the list don't add)
