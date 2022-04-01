@@ -1,0 +1,2 @@
+Looking at the last homework (26) for binary searching
+Homework: Think about a faster way to search
