@@ -1,5 +1,0 @@
-Review past homework ~NA
-Think about optimized Exponent function ~a^b = a^(b/2) * a^(b/2)
-Homework:
-    Same as last time (couldn't do homework)
-    Look at solutions at 

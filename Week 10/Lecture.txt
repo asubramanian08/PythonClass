@@ -1,4 +1,0 @@
-Review part HW (from week 8)
-Homework:
-    insertion sort
-    intersection of two sorted arrays

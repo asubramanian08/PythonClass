@@ -1,3 +1,0 @@
-Review past homework: merge edits
-Explain mergesort!!
-Homework: Implement mergesort using the merge function

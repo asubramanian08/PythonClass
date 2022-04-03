@@ -1,8 +1,0 @@
-Review the homework (talked about problem 1)
-Teach how to use the debugger
-    truly understand what is happening on each line
-Talk about pointer and their substitute in python
-Homework:
-    Largest element in a list and sum of list
-    Return a list of all odd elements in a list
-    Return a list of element in all odd positions

@@ -1,5 +1,0 @@
-Discuss the problem
-Code some of the recursive function
-Homework: same problem
-    Finish the recursive function (return value, store answer for each node)
-    Create to code needed to find the root (use the tree)

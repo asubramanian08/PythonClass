@@ -1,2 +1,0 @@
-Go over previous homework: merge
-Homework: Finish and touch up the merge code
