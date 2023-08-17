@@ -1,0 +1,7 @@
+1. Install Visual Studio Code
+2. Install Node.js
+3. Get live share extension in vscode
+
+Test out node + live share
+
+Plan out what the 2048 would look like
