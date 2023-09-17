@@ -1,0 +1,27 @@
+.inline-container {
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+    margin: 5px;
+}
+
+.bordered-textbox {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    padding: 1em;
+}
+
+.grid-container {
+    /* WRITE THIS */
+}
+
+.grid-row {
+    /* WRITE THIS */
+}
+
+.grid-cell {
+    /* WRITE THIS - THIS IS IMPORTANT */
+}
