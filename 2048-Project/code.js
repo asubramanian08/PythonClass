@@ -13,6 +13,8 @@ fs.readFile('index.html', function (err, html) {
     }).listen(port);
 });
 
+// terminal: node code.js
+
 // const server = http.createServer((req, res) => {
 //     res.statusCode = 200;
 //     res.setHeader('Content-Type', 'text/plain');

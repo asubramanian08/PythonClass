@@ -1,4 +1,4 @@
-const { BlockList } = require("net");
+// const { BlockList } = require("net");
 
 
 array = [[0, 0, 0, 0],
@@ -7,18 +7,6 @@ array = [[0, 0, 0, 0],
 [0, 0, 0, 0]];
 
 
-
-array =
-    [[0, 0, 0, 0],
-    [0, 0, 0, 0],
-    [0, 2, 2, 8],
-    [16, 4, 4, 32]];
-// -> when you swipe left
-array =
-    [[0, 0, 0, 0],
-    [0, 0, 0, 0],
-    [0, 0, 4, 8],
-    [0, 16, 8, 32]];
 
 
 
@@ -34,11 +22,27 @@ window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { re
 window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowDown": } });
 
 
+// array =
+//     [[0, 0, 0, 0],
+//     [0, 0, 0, 0],
+//     [0, 2, 2, 8],
+//     [16, 4, 4, 32]];
+// // -> when you swipe right
+// array =
+//     [[0, 0, 0, 0],
+//     [0, 0, 0, 0],
+//     [0, 0, 4, 8],
+//     [0, 16, 8, 32]];
+
+
 function swipeleft() {
 
+    for (let i = 0; i < length(array))
 
-    [0, 2, 2, 2]
-    [4, 2, 0, 0]
+
+
+        [0, 2, 2, 2]
+        [4, 2, 0, 0]
 
     array = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
     for i in array[]{
