@@ -1,24 +1,28 @@
 # Generate a 2048 tile using Python's PIL package
 
+# Important image generation library
 from PIL import Image
 from PIL import ImageDraw
 from PIL import ImageFont
 
+# Hardcode font sizes
 SIZES = [200, 150, 110, 85]
 
-def digitCount(x):
+
+def digitCount(x):  # Count digits -> used to pick the font size
     digits = 1
     while x // 10 > 0:
         x //= 10
         digits += 1
     return digits
 
-def createTile(number, color, file):
-   
+
+def createTile(number, color):  # Create a tile
+
     # Create the background
     width = 200
     height = 200
-    img = Image.new('HSV', (width, height), color) # 'RGB'
+    img = Image.new('RGB', (width, height), color)
     draw = ImageDraw.Draw(img)
 
     # Add and center text
@@ -28,30 +32,21 @@ def createTile(number, color, file):
     temp1, temp2, w, h = draw.textbbox((0, 0), text, font=font)
     x = (width - (w + temp1)) // 2
     y = (height - (h + temp2)) // 2
-    draw.text((x, y), text, fill=(0,0,0), font=font)
+    draw.text((x, y), text, fill=(0, 0, 0), font=font)
 
     # Save the image
-    img.save(file)
+    img.save(f'img/{number}.png')
 
 
-# Idea for changing colors
-# 1. You have a set "step length" of distance away from the previous hue and saturation
-# 2. Saturation jump will start at 10 and decrease by .5 every time
-# 3. The hue will be such that the distance is 10: hue = sqrt(10^2 - saturation^2)
-
-# HSV -> RGB
-
-x = 2 
-while x <= 2048:
-    H = 66
-    S = 40
-    V= 100
-    HD = 2
-    VD = 10
-    while VD > 0 and HD > 0:
-        VD = VD - 0.5
-        HD = HD + 1
-
-
-    createTile(x, (255, 255, 0), f'img/{x}.png')
-    x *= 2
+# Create all tiles: 2 through 2048 with handpicked RGB colors
+createTile(2, (250, 249, 234))
+createTile(4, (206, 209, 188))
+createTile(8, (220, 216, 128))
+createTile(16, (227, 196, 90))
+createTile(32, (227, 151, 46))
+createTile(64, (229, 106, 23))
+createTile(128, (241, 74, 18))
+createTile(256, (248, 43, 8))
+createTile(512, (255, 3, 0))
+createTile(1024, (255, 0, 93))
+createTile(2048, (241, 2, 118))
