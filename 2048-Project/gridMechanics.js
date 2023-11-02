@@ -1,9 +1,11 @@
 // Initialize variables
 
-let grid = [[0, 0, 0, 0],
-[0, 0, 0, 0],
-[0, 0, 0, 0],
-[0, 0, 0, 0]];
+let grid = [
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0],
+    [0, 0, 0, 0]
+];
 
 let score = 0;
 
@@ -12,61 +14,55 @@ let score = 0;
 
 function swipeleft() {
 
+    let changed = false;
+
     for (let i = 0; i < length(array); i++) {
+
+        // Create the new row
+        let newRow = [0, 0, 0, 0];
 
         // Slide each row left (individually)
         for (let addPos = 0, j = 0; j < length(array[i]); j++) {
 
-            // Set up
+            // Ignore empty cells
             if (array[i][j] == 0)
                 continue;
-            let temp = array[i][j];
-            array[i][j] = 0;
 
             // Slide left
-            if (array[i][addPos] == 0)
-                array[i][addPos] = temp;
-            else if (array[i][addPos] == array[i][j]) {
-                score += (array[i][addPos] += temp);
+            if (newRow[i][addPos] == 0)
+                newRow[i][addPos] = array[i][j];
+            else if (newRow[i][addPos] == newRow[i][j]) {
+                score += (newRow[i][addPos] += array[i][j]);
                 addPos++;
             }
             else {
                 addPos++;
-                array[i][addPos] = temp;
+                newRow[i][addPos] = array[i][j];
             }
         }
+
+        // Determine if anything changed
+        changed = changed || (newRow != array[i]);
+
+        // Update the row
+        array[i] = newRow;
     }
 
-    return true; // when something changes
+    return true;
 };
 
+// const { BlockList } = require("net");
 
 
-// [0, 2, 2, 2]
-// [4, 2, 0, 0]
+function after_every_move() {
+    // generatea random new 2 or 4 in a random empty cell
 
-// array = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
-// for i in array[]{
-//     if (w = x) {
-//         w = w + x
-//     }
-//     newarry = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
-//     if (x = y) {
-//         x = x + y
-//     }
-//     newarry = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
-//     if (y = z) {
-//         y = y + z
-//     }
-//     newarry = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
-// }
-// newarry = [[w, x, y, z], [w, x, y, z], [w, x, y, z], [w, x, y, z]]
+    // check if gameover
 
-
-array = newarray
+    // updatehtml() // call this function
 
 }
-// const { BlockList } = require("net");
+
 
 // swipeleft
 window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowLeft": } });
@@ -78,17 +74,7 @@ window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { re
 window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowDown": } });
 
 
-function after_every_move() {
-    // update the score
-
-    // generatea random new 2 or 4 in a random empty cell
-
-    // check if gameover
-
-    // updatehtml() // call this function
-
-}
-
 
 function updatehtml() {// you can't do now
+
 }
