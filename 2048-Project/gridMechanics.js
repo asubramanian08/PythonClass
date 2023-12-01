@@ -11,7 +11,6 @@ let grid = [
 
 let score = 0;
 
-// THERE ARE BUGS HERE THAT NEED TO BE FIXED (EX: 2, 2, 2, 8)
 function swipe_left() {
 
     let changed = false;
@@ -20,6 +19,7 @@ function swipe_left() {
 
         // Create the new row
         let newRow = [0, 0, 0, 0];
+
 
         // Slide each row left (individually)
         for (let addPos = 0, j = 0; j < GRID_LENGTH; j++) {
@@ -31,13 +31,13 @@ function swipe_left() {
             // Slide left
             if (newRow[addPos] == 0)
                 newRow[addPos] = grid[i][j];
-            else if (newRow[addPos] == newRow[j]) {
+            else if (newRow[addPos] == grid[i][j]) {
                 score += (newRow[addPos] += grid[i][j]);
                 addPos++;
             }
             else {
                 addPos++;
-                newRow[i][addPos] = grid[i][j];
+                newRow[addPos] = grid[i][j];
             }
         }
 
@@ -51,32 +51,51 @@ function swipe_left() {
     return changed;
 };
 
-// const { BlockList } = require("net");
-
-
+// Handle all swipes with a button input to determine the swipe direction
+// Returns 0 if nothing changed, 1 if something changed, 2 if game won, 3 if game lost
 function swipe(button) {
-    if (button = ) {
-        if (arr == arr1) {
-            return false;
-        } else {
-            return true;
-        }
+
+    let changed = false;
+    if (button == "left") {
+        changed = swipe_left();
+    } else if (button == "right") {
+        changed = swipe_right();
+    } else if (button == "up") {
+        changed = swipe_up();
+    } else if (button == "down") {
+        changed = swipe_down();
+    } else {
+        console.log("Invalid button"); // ERROR CASE
     };
-    // call the swipe[dir] function -> determine if anything changed (return if it did not)
+    if (changed == false) {
+        return 0; // nothing changed
+    }
+
 
     // generatea random new 2 or 4 in a random empty cell
+
+
 
     // check if gameover
     for (i in grid(i = 0, i++, i < len(grid))) {
         if (grid[i] == 2048) {
-            return true;
-        }
+            return 2;
+        } else if (changed == true) {
+
+        } else {
+            return 0;
+        };
     };
+
+
+
 
     // updatehtml() // call this function
 
 }
 
+
+// const { BlockList } = require("net");
 
 // swipeleft
 window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowLeft": } });
