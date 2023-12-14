@@ -4,7 +4,7 @@ let GRID_LENGTH = 4;
 
 let grid = [
     [0, 0, 0, 0],
-    [0, 0, 0, 0],
+    [0, 2, 0, 0],
     [0, 0, 0, 0],
     [0, 0, 0, 0]
 ];
@@ -89,22 +89,26 @@ function swipe(button) {
 
 
 
-
     // updatehtml() // call this function
 
 }
 
+console.log(grid);
+
+swipe_left();
+
+console.log(grid);
 
 // const { BlockList } = require("net");
 
-// swipeleft
-window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowLeft": } });
-// swiperight
-window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowRight": } });
-// swipeup
-window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowUp": } });
-// swipedown
-window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowDown": } });
+// // swipeleft
+// window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowLeft": } });
+// // swiperight
+// window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowRight": } });
+// // swipeup
+// window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowUp": } });
+// // swipedown
+// window.addEventListener("keydown", (event) => { if (event.defaultPrevented) { return; } switch (event.key) { case "ArrowDown": } });
 
 
 
