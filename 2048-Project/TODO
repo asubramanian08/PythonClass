@@ -1,3 +1,4 @@
 Enhancements:
 1. Make the image slide
 2. Auto generate the 2048 boxes
+3. Build a database to store all the images (we can change the theme of the game)

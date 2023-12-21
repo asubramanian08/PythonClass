@@ -24,12 +24,12 @@
 }
 
 .grid-cell {
+    display: inline-block;
     width: 100px;
     height: 100px;
     border-width: 3px;
     background-color: #75435b;
     margin: 2px;
-
 }
 
 .grid-cell:last-child {
