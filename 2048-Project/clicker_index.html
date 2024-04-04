@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Button</title>
+
+    <script>
+
+        function counter() {
+            element = document.getElementsByTagName("p")[0];
+            text = element.innerHTML;
+            let x = (Number(text) + 1).toString();
+            element.innerHTML = x;
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1>This Button Will Count How Many Times You Click It!</h1>
+    <!-- <button onclick="counter();"><img src="clickme.png" />Click!</button> -->
+    <button type="image" src="clickme.png" onclick="counter();"></button>
+    <p> 0 </p>
+
+</body>
+
+</html>
