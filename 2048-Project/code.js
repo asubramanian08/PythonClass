@@ -16,20 +16,5 @@ http.createServer(function (request, response) {
     response.end();
 }).listen(port);
 
-
-// random button
-
 // terminal: node code.js
 // server link: http://127.0.0.1:3000
-
-
-http.createServer(
-    function (req, res) {
-        fs.readFile('demofile1.html', function hi(err, data) {
-            res.writeHead(200, {'Content-Type': 'text/html'});
-            // res.write(data);
-            res = "hi";
-            return res.end();
-        });
-    }
-).listen(8080);
