@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" version="24.8.1">
+  <diagram name="Page-1" id="pfKaEc5Uqka4Nca2l_9i">
+    <mxGraphModel dx="1363" dy="1956" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qI1xX2Cc15jT79np0opZ-2" value="&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 18px; background-color: initial;&quot;&gt;&lt;u&gt;Features&lt;/u&gt;:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- generate new numbers&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- add the numbers together&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- create the grid (look 2048 grid)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- have the titles insitde each gird&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- score ( high score?)&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- host the website on a node js server&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;- style the board&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="20" y="-270" width="320" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-4" value="Backend" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-6" value="Front End" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-7" value="- high score&lt;div&gt;- proccessing each &quot;move&quot; (adding the number together, greating new score)&lt;/div&gt;&lt;div&gt;- update score&lt;/div&gt;&lt;div&gt;- hosting the website&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="415" y="50" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-8" value="style board&lt;div&gt;create the tiles in each grid&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="70" width="190" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-9" target="qI1xX2Cc15jT79np0opZ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-9" value="User click an arrow key triggering a response" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-10" target="qI1xX2Cc15jT79np0opZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-10" value="Add the tiles together based on the arrow key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-12" target="qI1xX2Cc15jT79np0opZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-12" value="Query: What arrow is clicked, grid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-15" target="qI1xX2Cc15jT79np0opZ-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-15" value="Generate a new number (2 or 4 at a random position)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-17" target="qI1xX2Cc15jT79np0opZ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-17" value="Update the score (during add)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-22" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Front end maintain: The grid&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-23" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Back end maintains: The score. the high score&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="380" y="210" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-24" target="qI1xX2Cc15jT79np0opZ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-24" value="Return: updated grid, score, high score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-26" target="qI1xX2Cc15jT79np0opZ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-26" value="Updates the grid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-28" value="Updates the score (or highscore)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1100" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-32" value="Future imporvelent:&lt;br&gt;allow multople people to play the game at once&lt;br&gt;anitmate the number sliding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1950" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-33" target="qI1xX2Cc15jT79np0opZ-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-33" value="Start" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-35" target="qI1xX2Cc15jT79np0opZ-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-35" value="Create the initial board (all blank)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-37" target="qI1xX2Cc15jT79np0opZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-37" value="Query: no info (start game)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-39" target="qI1xX2Cc15jT79np0opZ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-39" value="Create a baord with random 2 tiles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-41" target="qI1xX2Cc15jT79np0opZ-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-41" value="Returs: new grid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="475" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qI1xX2Cc15jT79np0opZ-43" target="qI1xX2Cc15jT79np0opZ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-43" value="Updated the grid display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qI1xX2Cc15jT79np0opZ-45" value="Initiallize the high score and score" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1810" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
