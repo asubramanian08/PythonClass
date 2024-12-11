@@ -8,11 +8,18 @@
     <script>
 
         function counter() {
-            element = document.getElementsByTagName("p")[0];
-            text = element.innerHTML;
-            let x = (Number(text) + 1).toString();
-            element.innerHTML = x;
+            //element = document.getElementsByTagName("p")[0];
+            //text = element.innerHTML;
+            //let x = (Number(text) + 1).toString();
+            //element.innerHTML = x;
             // XMLHttpRequest, look at https://www.w3schools.com/js/js_ajax_intro.asp
+            
+            const xhttp = new XMLHttpRequest();
+            xhttp.onload = function(){
+
+            }
+            xhttp.open("POST", "ajax_info.txt");
+            xhttp.send();
         }
 
     </script>
